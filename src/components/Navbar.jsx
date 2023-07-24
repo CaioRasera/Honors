@@ -8,7 +8,6 @@ const Navbar = () => {
         <a href="#" className='flex items-center'> 
           <img src={Image} alt="Honors Logo" className='h-8 mr-3'/>
         </a>
-        <h1>Olá</h1>
       </div>
     </nav>
   )
