@@ -1,16 +1,16 @@
 import React from 'react'
-import ImageLogo from '../assets/honorlogo.png'
+import HonorsLogo from '../assets/honorlogo.png'
 import PhoneIcon from "../assets/Phoneicon.png"
 
 const Navbar = () => {
   return (
-    <nav className='h-[100vh] w-[100vw] bg-white border-gray-200 dark:bg=gray-900'>
-      <div className='flex flex-wrap items-center justify-between ml-[90px] mr-[74px]'>
-        <a href="#" className='flex items-center h-[85px] w-[344px]'> 
-          <img src={ImageLogo} alt="Honors Logo"/>
+    <nav className='h-[124px] w-full bg-blur fixed top-0'>
+      <div className='flex items-center justify-between'>
+        <a href="#" className='mx-20 my-5 w-[250px]'> 
+          <img src={HonorsLogo} alt="Honors Logo"/>
         </a>
-        <div className='flex flex-wrap items-center justify-between	h-[70px] w-[70px]'>
-          <a href="#">
+        <div className='flex flex-wrap items-center justify-between'>
+          <a href="#" className='mx-16 my-5 w-14'>
             <img src={PhoneIcon} alt="Phone Icon" classNama='w-[50px] h-[50px] flex-shrink'/>
           </a>
         </div>

@@ -108,9 +108,7 @@ function WhatWeDo() {
 
             </div>
             <div className='m-7'>
-                <h3 className='
-                    text-white text-center text-[12px]  font-[poppins]
-                '>
+                <h3 className='text-white text-center text-[12px]  font-[poppins]'>
                     Usando tecnologias modernas
                 </h3>
                 <div className='
