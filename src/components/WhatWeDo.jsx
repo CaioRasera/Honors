@@ -116,16 +116,16 @@ function WhatWeDo() {
                 <div className='
                     flex justify-center
                 '>
-                    <a href="https://nestjs.com/" className='m-[35px'>
+                    <a href="https://nestjs.com/" target='_blank' className='m-[35px'>
                         <img src={NestJsImg} alt="" />
                     </a>
-                    <a href="https://react.dev/" className='m-[35px'>
+                    <a href="https://react.dev/" target='_blank' className='m-[35px'>
                         <img src={ReactJsImg} alt="" />
                     </a>
-                    <a href="https://www.typescriptlang.org/" className='m-[35px'>
+                    <a href="https://www.typescriptlang.org/" target='_blank' className='m-[35px'>
                         <img src={TsImg} alt="" />
                     </a>
-                    <a href="https://www.java.com/pt-BR/" className='m-[35px'>
+                    <a href="https://www.java.com/pt-BR/" target='_blank' className='m-[35px'>
                         <img src={JavaImg} alt="" />
                     </a>
                 </div>
