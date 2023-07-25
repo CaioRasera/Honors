@@ -4,7 +4,7 @@ import PhoneIcon from "../assets/Phoneicon.png"
 
 const Navbar = () => {
   return (
-    <nav className='bg-white border-gray-200 dark:bg=gray-900'>
+    <nav className='h-[100vh] bg-white border-gray-200 dark:bg=gray-900'>
       <div className='flex flex-wrap items-center justify-between ml-[90px] mr-[74px]'>
         <a href="#" className='flex items-center h-[85px] w-[344px]'> 
           <img src={ImageLogo} alt="Honors Logo"/>
