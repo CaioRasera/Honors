@@ -15,38 +15,15 @@ function WhatWeDo() {
             h-[100vh]
             w-[100vw]
             bg-[#202020]
-        '
-        
+        '  
         >
-            <div className="
-            header 
-            flex 
-            justify-between 
-            ">
-                <a href="" className='
-                mx-10 
-                my-5
-                p-2 
-                w-28
-                md:w-[320px]
-                '>
-                    <img src={HonorsLogo} alt="" />
-                </a>
-                <a href="" className='
-                mx-10 
-                my-8 
-                w-8
-                md:w-[50px]
-                '>
-                    <img src={PhoneIcon} alt="" />
-                </a>
-            </div>
+    
             <h1
                 className='
                 text-center 
-                
                 text-2xl 
                 m-20 
+                pt-[150px]
                 md:text-4xl md:m-32
                 text-white
             '
@@ -92,10 +69,7 @@ function WhatWeDo() {
                     </div>
                 </div>
 
-                <div className='
-                    w-[350px]
-                    h-[220px]
-                '>
+                <div className='w-[350px] h-[220px]'>
                     <div className='
                     border-[#38108C]
                     border-2
