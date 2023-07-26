@@ -8,13 +8,16 @@ import TsImg from '../assets/TsImg.png'
 import JavaImg from '../assets/JavaImg.png'
 import '../assets/css/fonts.css'
 
+
 function WhatWeDo() {
     return (
         <main className='
             h-[100vh]
             w-[100vw]
             bg-[#202020]
-        '>
+        '
+        
+        >
             <div className="
             header 
             flex 
@@ -22,24 +25,29 @@ function WhatWeDo() {
             ">
                 <a href="" className='
                 mx-10 
-                my-5 
-                w-28'>
+                my-5
+                p-2 
+                w-28
+                md:w-[320px]
+                '>
                     <img src={HonorsLogo} alt="" />
                 </a>
                 <a href="" className='
                 mx-10 
-                my-5 
-                w-7'>
+                my-8 
+                w-8
+                md:w-[50px]
+                '>
                     <img src={PhoneIcon} alt="" />
                 </a>
             </div>
             <h1
                 className='
                 text-center 
-                font-extrabold 
-                text-xl 
+                
+                text-2xl 
                 m-20 
-                md:text-2xl 
+                md:text-4xl md:m-32
                 text-white
             '
                 style={{ fontFamily: 'poppins' }}
@@ -48,8 +56,8 @@ function WhatWeDo() {
             <div className='
             md:flex 
             justify-evenly 
-            m-35 
-            mb-24
+            mb-10
+            md:mb-48
             text-center
             grid
             grid-rows
@@ -68,13 +76,17 @@ function WhatWeDo() {
                     rounded-[12px]'/>
                     <div>
                         <h2 className='
-                            font-bold text-[14px] leading-[100px] w-[100%] text-white
-                            md:text-3xl
+                            font-bold text-[20px] leading-[50px] w-[100%] text-white
+                            md:text-3xl md:leading-[100px]
+                            
+
 
                         ' style={{ fontFamily: 'poppins' }}>
                             Do design ao código
                         </h2>
-                        <p style={{ fontFamily: 'poppins' }} className='text-center text-[12px] w-[75%]  m-auto text-white'>
+                        <p style={{ fontFamily: 'poppins' }} className='text-center text-[12px] w-[70%]  m-auto text-white
+                        md:text-[20px] md:w-[100%]
+                        '>
                             Ajudamos você a construir uma aplicação com a sua cara de ponta a ponta
                         </p>
                     </div>
@@ -83,7 +95,6 @@ function WhatWeDo() {
                 <div className='
                     w-[350px]
                     h-[220px]
-                    gap-[30px]
                 '>
                     <div className='
                     border-[#38108C]
@@ -95,20 +106,22 @@ function WhatWeDo() {
 
                     <div>
                     <h2 className='
-                            font-bold text-[14px] leading-[100px] w-[100%] text-white
-                            md:text-3xl
+                            font-bold text-[20px] leading-[50px] w-[100%] text-white
+                            md:text-3xl md:leading-[100px]
                         ' style={{ fontFamily: 'poppins' }}>
                            Upgrade
                         </h2>
-                        <p style={{ fontFamily: 'poppins' }} className='text-center text-[12px] w-[75%] m-auto text-white'>
+                        <p style={{ fontFamily: 'poppins' }} className='text-center text-[12px] w-[70%] m-auto my-0 text-white
+                        md:text-[20px] md:w-[100%]
+                        '>
                             Ajudamos você a construir uma aplicação com a sua cara de ponta a ponta
                         </p>
                     </div>
                 </div>
 
             </div>
-            <div className='m-7'>
-                <h3 className='text-white text-center text-[12px]  font-[poppins]'>
+            <div className='m-7 mt-28'>
+                <h3 className='text-white text-center text-[12px] mb-[10px] font-[poppins]'>
                     Usando tecnologias modernas
                 </h3>
                 <div className='
