@@ -22,14 +22,10 @@ function WhatWeDo() {
                 className='
                 text-center 
                 text-2xl 
-<<<<<<< HEAD
                 m-10 
-                md:text-2xl md:m-14
-=======
-                m-20 
+                md:text-3xl md:mb-14 md:mt-24
+                lg:text-4xl
                 pt-[150px]
-                md:text-4xl md:m-32
->>>>>>> 15787f390d5b295184f61d295981c718d8183a9c
                 text-white
             '
                 style={{ fontFamily: 'poppins' }}
@@ -38,7 +34,8 @@ function WhatWeDo() {
             <div className='
             md:flex 
             justify-evenly 
-            md:mb-28
+            md:mb-44
+            lg:mb-24
             text-center
             grid
             grid-rows
@@ -99,22 +96,24 @@ function WhatWeDo() {
 
             </div>
             <div className='m-auto'>
-                <h3 className='text-white text-center text-[15px] mb-[15px] font-[poppins]'>
+                <h3 className='text-white text-center text-[15px] mb-[15px] font-[poppins] lg:text-xl lg:mb-24 '>
                     Usando tecnologias modernas
                 </h3>
                 <div className='
-                    flex justify-center
+                    flex flex-wrap justify-center
                 '>
-                    <a href="https://nestjs.com/" target='_blank' className='p-1 w-40'>
+                    <a href="https://nestjs.com/" target='_blank' className='p-1 w-28
+                    lg:w-52 md:w-40'>
                         <img src={NestJsImg} alt="Nest Js Img" />
                     </a>
-                    <a href="https://react.dev/" target='_blank' className='p-1 w-40'>
+                    <a href="https://react.dev/" target='_blank' className='p-1 w-28
+                    lg:w-52 md:w-40'>
                         <img src={ReactJsImg} alt="React Js Img" />
                     </a>
-                    <a href="https://www.typescriptlang.org/" target='_blank' className='p-1 w-40'>
+                    <a href="https://www.typescriptlang.org/" target='_blank' className='p-1 w-28 lg:w-52 md:w-40'>
                         <img src={TsImg} alt="Typescript Img" />
                     </a>
-                    <a href="https://www.java.com/pt-BR/" target='_blank' className='p-1 w-40'>
+                    <a href="https://www.java.com/pt-BR/" target='_blank' className='p-1 w-28 lg:w-52 md:w-40'>
                         <img src={JavaImg} alt="Java Img" />
                     </a>
                 </div>
