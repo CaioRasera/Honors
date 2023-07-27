@@ -46,8 +46,8 @@ function WhatWeDo() {
                 text-center 
                 
                 text-2xl 
-                m-20 
-                md:text-4xl md:m-32
+                m-10 
+                md:text-2xl md:m-14
                 text-white
             '
                 style={{ fontFamily: 'poppins' }}
@@ -56,8 +56,7 @@ function WhatWeDo() {
             <div className='
             md:flex 
             justify-evenly 
-            mb-10
-            md:mb-48
+            md:mb-28
             text-center
             grid
             grid-rows
@@ -77,7 +76,7 @@ function WhatWeDo() {
                     <div>
                         <h2 className='
                             font-bold text-[20px] leading-[50px] w-[100%] text-white
-                            md:text-3xl md:leading-[100px]
+                            md:text-xl md:leading-[100px]
                             
 
 
@@ -107,7 +106,7 @@ function WhatWeDo() {
                     <div>
                     <h2 className='
                             font-bold text-[20px] leading-[50px] w-[100%] text-white
-                            md:text-3xl md:leading-[100px]
+                            md:text-xl md:leading-[100px]
                         ' style={{ fontFamily: 'poppins' }}>
                            Upgrade
                         </h2>
@@ -120,24 +119,24 @@ function WhatWeDo() {
                 </div>
 
             </div>
-            <div className='m-7 mt-28'>
-                <h3 className='text-white text-center text-[12px] mb-[10px] font-[poppins]'>
+            <div className='m-auto'>
+                <h3 className='text-white text-center text-[15px] mb-[15px] font-[poppins]'>
                     Usando tecnologias modernas
                 </h3>
                 <div className='
                     flex justify-center
                 '>
-                    <a href="https://nestjs.com/" target='_blank' className='m-[35px'>
-                        <img src={NestJsImg} alt="" />
+                    <a href="https://nestjs.com/" target='_blank' className='p-1 w-40'>
+                        <img src={NestJsImg} alt="Nest Js Img" />
                     </a>
-                    <a href="https://react.dev/" target='_blank' className='m-[35px'>
-                        <img src={ReactJsImg} alt="" />
+                    <a href="https://react.dev/" target='_blank' className='p-1 w-40'>
+                        <img src={ReactJsImg} alt="React Js Img" />
                     </a>
-                    <a href="https://www.typescriptlang.org/" target='_blank' className='m-[35px'>
-                        <img src={TsImg} alt="" />
+                    <a href="https://www.typescriptlang.org/" target='_blank' className='p-1 w-40'>
+                        <img src={TsImg} alt="Typescript Img" />
                     </a>
-                    <a href="https://www.java.com/pt-BR/" target='_blank' className='m-[35px'>
-                        <img src={JavaImg} alt="" />
+                    <a href="https://www.java.com/pt-BR/" target='_blank' className='p-1 w-40'>
+                        <img src={JavaImg} alt="Java Img" />
                     </a>
                 </div>
             </div>
