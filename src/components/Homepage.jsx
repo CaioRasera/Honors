@@ -2,6 +2,11 @@ import React from 'react'
 import H from '../assets/H.png'
 import Thinkseglogo from '../assets/Thinkseg.png'
 import Thinksegtext from '../assets/thinksegtext.png'
+import Kipstonelogo from '../assets/Kipstone.png'
+import Stefaninilogo from '../assets/stefaninilogo.png'
+import Prismalogo from '../assets/prismalogo.png'
+import Mobslogo from '../assets/mobslogo.png'
+import Dentallogo from '../assets/Dentalofficelogo.png'
 
 const Homepage = () => {
   return (
@@ -22,9 +27,28 @@ const Homepage = () => {
           <p className="text-center font-poppins text-sm font-medium text-gray-800">Confiado por inovadores Globais</p>
         </div>
 
-        <div className='inline-flex h-30 justify-center items-center space-x-20 flex-shrink-0'>
-            <img src={Thinkseglogo} alt="Logo" className='w-[50px] h-[50px]'/>
-            <img src={Thinksegtext} alt="ThinkSeg" className='w-auto h-[50px]'/>
+        <div className='flex justify-center items-center '>
+            <a href="https://thinkseg.com" target='_blank'>
+              <img src={Thinkseglogo} alt="ThinksegLogo" className='w-[50px] h-[50px] mx-[20px]'/>
+            </a>
+            <a href="https://thinkseg.com" target='_blank'>
+              <img src={Thinksegtext} alt="ThinkSeg" className='w-[165px] h-[50px] mx-[20px]'/>
+            </a>
+            <a href="" target='_blank'>
+              <img src={Kipstonelogo} alt="Kipstone" className='w-[50px] h-[50px] mx-[20px]'/>
+            </a>
+            <a href="https://www.dentaloffice.com.br" target='_blank'>
+              <img src={Dentallogo} alt="DentalOffice" className='w-[135px] h-[50px] mx-[20px]'/>
+            </a>
+            <a href="" target='_blank'>
+              <img src={Prismalogo} alt="Prisma" className='w-[50px] h-[50px] mx-[20px]'/>
+            </a>
+            <a href="https://stefanini.com/pt-br" target='_blank'>
+              <img src={Stefaninilogo} alt="Stefanini" className='w-[165px] h-[50px] mx-[20px]'/>
+            </a>
+            <a href="" target='_blank'>
+              <img src={Mobslogo} alt="Mobs" className='w-[165px] h-[50px] mx-[20px]'/>
+            </a>
         </div>
       </footer>
     </main>
