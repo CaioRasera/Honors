@@ -26,8 +26,7 @@ function PDE() {
                         shrink
                         w-[40px]
                         md:w-[40px]
-                        rounded-[12px]
-                        
+                        rounded-[12px]    
                     '>
                     </div>
                 </div>
