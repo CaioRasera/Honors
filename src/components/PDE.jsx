@@ -12,10 +12,7 @@ function PDE() {
             w-[280px]
             h-[110px]
         '>
-            
-
         </div>
-
         <div className='text-center'>
             <div className='w-[100%] font-[poppins] mt-10 mb-10'>
                 <div className='w-[50%] m-auto'>
@@ -29,8 +26,7 @@ function PDE() {
                         shrink
                         w-[40px]
                         md:w-[40px]
-                        rounded-[12px]
-                        
+                        rounded-[12px]    
                     '>
                     </div>
                 </div>
