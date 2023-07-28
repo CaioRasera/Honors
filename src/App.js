@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import WhatWeDo from './components/WhatWeDo';
 import Mainpage from './components/Homepage';
 import HowWeHelpYou from './components/HowWeHelpYou';
+import PDE from './components/PDE';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Mainpage />
       <WhatWeDo />
       <HowWeHelpYou />
+      <PDE />
     </div>
   )
 }
