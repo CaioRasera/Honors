@@ -6,15 +6,15 @@ import Database from '../assets/Database.png'
 
 const HowWeHelpYou = () => {
   return (
-    <main className='mt-[100px]'>
+    <main className='mt-[100px] '>
         <div>
             <h1 className='text-[#202020] text-center font-poppins text-[45px] font-semibold'> Como te ajudamos ? </h1>
         </div>
         <div className='flex justify-center items-center h-screen'>
-          <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] relative'>
+          <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] lg:w-screen lg:h-screen relative'>
               <div>
                 <div className="absolute top-0 left-0 flex items-center">
-                  <img src={Rocket} alt="Foguete" className='w-[50px] h-[50px]'/>
+                  <img src={Rocket} alt="Foguete" className='w-[50px] h-[50px] '/>
                   <h1 className='font-poppins text-[21px] font-normal font-black ml-2 w-[313px] h-[62px] mt-[18px]'>LANÇAMENTOS DIGITAIS COM QUALIDADE</h1>
                 </div>
                   <p className='mt-[80px] w-[520px] h-[165px] font-semibold	'>
@@ -61,8 +61,7 @@ const HowWeHelpYou = () => {
                     em microsserviços, aplicando novos paradigmas, incluindo arquiteturas orientadas a eventos (EDA) e ferramentas como Elixir e Phoenix.
                   </p>
               </div>
-
-          </div>
+           </div>
         </div>
     </main>
   )

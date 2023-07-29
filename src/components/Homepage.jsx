@@ -13,12 +13,16 @@ const Homepage = () => {
     <main>
       <div className='h-screen w-screen flex items-center justify-center bg-white'>
         <div className='relative'>
-          <img src={H} alt="H" className='w-full h-full'/>
+          <img src={H} alt="H" className='w-full'/>
         </div>
 
-        <div >
-          <p className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins text-[40px] font-extrabold text-black'>Aplicações limpas e otimizadas</p>
-          <p className='mt-[50px] font-poppins text-lg font-medium text-gray-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>Utilizando as mais recentes tecnologias do mercado.</p>
+        <div>
+          <p className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins text-[40px] font-extrabold text-black'>
+            Aplicações limpas e otimizadas
+          </p>
+          <p className='mt-[50px] lg:mt-[60px] md:mt-[75px] font-poppins text-lg font-medium text-gray-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
+            Utilizando as mais recentes tecnologias do mercado.
+          </p>
         </div>
       </div>
 
@@ -27,7 +31,7 @@ const Homepage = () => {
           <p className="text-center font-poppins text-sm font-medium text-gray-800">Confiado por inovadores Globais</p>
         </div>
 
-        <div className='flex justify-center items-center '>
+        <div className='flex justify-center items-center lg:m-12'>
             <a href="https://thinkseg.com" target='_blank'>
               <img src={Thinkseglogo} alt="ThinksegLogo" className='w-[50px] h-[50px] mx-[20px]'/>
             </a>
