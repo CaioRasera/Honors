@@ -17,10 +17,10 @@ const Homepage = () => {
         </div>
 
         <div>
-          <p className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins text-[40px] font-extrabold text-black'>
+          <p className='sm:text-[35px] sm:h-[170px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins text-[40px] font-extrabold text-black'>
             Aplicações limpas e otimizadas
           </p>
-          <p className='mt-[50px] lg:mt-[60px] md:mt-[75px] font-poppins text-lg font-medium text-gray-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
+          <p className='mt-[50px] lg:mt-[60px] md:mt-[75px] sm:mt-[90px] font-poppins text-lg font-medium text-gray-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
             Utilizando as mais recentes tecnologias do mercado.
           </p>
         </div>
@@ -31,7 +31,7 @@ const Homepage = () => {
           <p className="text-center font-poppins text-sm font-medium text-gray-800">Confiado por inovadores Globais</p>
         </div>
 
-        <div className='flex justify-center items-center lg:m-12'>
+        <div className='flex justify-center items-center lg:m-12 md:m-6 md:mr-12 md:space-x-4 sm:m-8 sm:space-x-4 sm:mr-12 '>
             <a href="https://thinkseg.com" target='_blank'>
               <img src={Thinkseglogo} alt="ThinksegLogo" className='w-[50px] h-[50px] mx-[20px]'/>
             </a>

@@ -10,10 +10,10 @@ const HowWeHelpYou = () => {
         <div>
             <h1 className='text-[#202020] text-center font-poppins text-[45px] font-semibold'> Como te ajudamos ? </h1>
         </div>
-        <div className='flex justify-center items-center h-screen'>
-          <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] lg:w-screen lg:h-screen relative'>
-              <div>
-                <div className="absolute top-0 left-0 flex items-center">
+        <div className='flex justify-center items-center h-screen lg:flex lg:items-center lg:justify-center'>
+          <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] relative'>
+              <div className='lg:flex-col'>
+                <div className="absolute top-0 left-0 flex items-center lg:relative ">
                   <img src={Rocket} alt="Foguete" className='w-[50px] h-[50px] '/>
                   <h1 className='font-poppins text-[21px] font-normal font-black ml-2 w-[313px] h-[62px] mt-[18px]'>LANÇAMENTOS DIGITAIS COM QUALIDADE</h1>
                 </div>
@@ -24,8 +24,8 @@ const HowWeHelpYou = () => {
                   </p>
               </div>
 
-              <div>
-                <div className="absolute top-0 flex items-center ">
+              <div className='lg:flex-col'>
+                <div className="absolute top-0 flex items-center lg:relative">
                   <img src={Vector} alt="Vector" className='w-[50px] h-[50px]'/>
                   <h1 className='font-poppins text-[21px] font-normal font-black ml-4 w-[313px] h-[62px] mt-[18px] '>Cumpra prazos dentro de seus produtos digitais</h1>
                 </div>
@@ -37,8 +37,8 @@ const HowWeHelpYou = () => {
                   </p>
               </div>
 
-              <div>
-                <div className="absolute left-0 flex items-center">
+              <div className='lg:flex-col'>
+                <div className="absolute left-0 flex items-center lg:relative">
                   <img src={Browsers} alt="Browsers" className='w-[50px] h-[50px]'/>
                   <h1 className='font-poppins text-[21px] font-normal font-black ml-4 w-[313px] h-[62px] mt-[18px]'>Aumente a qualidade para a confiança de seus usuários</h1>
                 </div>
@@ -50,8 +50,8 @@ const HowWeHelpYou = () => {
               </div>
 
               
-              <div>
-                <div className="absolute flex items-center">
+              <div className='lg:flex-col'>
+                <div className="absolute flex items-center lg:relative">
                   <img src={Database} alt="Database" className='w-[50px] h-[50px]'/>
                   <h1 className='font-poppins text-[21px] font-normal font-black ml-4 w-[330px] h-[62px] mt-[18px]'>Melhore sua arquitetura e dimensione mais rapidamente</h1>
                 </div>
