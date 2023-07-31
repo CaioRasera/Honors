@@ -5,7 +5,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#202020] w-screen h-[295px] py-8'>
+    <footer className='bg-[#202020] w-screen h-[295px] py-8 mt-[600px]'>
     <div className='container mx-auto flex justify-between items-center'>
       <div>
         <img src={LogoHonors} alt="Logo Honors" className='mt-[30px]' />
