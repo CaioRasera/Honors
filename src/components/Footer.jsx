@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
 
-    <ul className="flex space-x-4 text-xl">
+    <ul className="flex space-x-4 text-xl lg:m-12 md:m-10 sm:m-6">
         <li className="flex items-center ">
             <a href="#" className="text-white flex items-center hover:text-purple-600">
                 <AiOutlineInstagram className="mr-2 " />
