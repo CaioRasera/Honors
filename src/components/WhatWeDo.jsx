@@ -12,8 +12,8 @@ import '../assets/css/fonts.css'
 function WhatWeDo() {
     return (
         <main className='
-            h-[100vh]
-            w-[100vw]
+            h-screen
+            w-screen
             bg-[#202020]
         '  
         >
