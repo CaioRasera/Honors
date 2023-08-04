@@ -13,6 +13,8 @@ function PDE() {
     return (
         <div className='
     m-auto
+    md:mt-[600px]
+    lg:mt-[0px]
     h-screen
     w-screen
     p-8
@@ -83,15 +85,16 @@ function PDE() {
                             flex
                             justify-center
                             mt-[60px]
+                            md:mt-0
                             lg:w-[513.388px]
                             lg:h-[59.259px]
                             lg:ml-[45%]
                             lg:mt-[100px]
                             ' src={shadow} alt="" />
                 </div>
-                <div className='text-left ml-[30%]'>
+                <div className='text-left lg:mt-0 lg:ml-[30%] md:ml-0'>
                     <div className='w-[100%] font-[poppins] mt-10 mb-10'>
-                        <div className='w-[40%] mr-auto'>
+                        <div className='w-[100%] m-auto text-center md:mt-[100px]'>
                             <h2 className='font-bold font-[poppins]'>
                                 Planejamento
                             </h2>
@@ -104,13 +107,19 @@ function PDE() {
                             md:w-[40px]
                             rounded-[12px]
                         '>
-                            </div>
                         </div>
-                        <p className=''>
+                        </div>
+                        <p className='
+                            text-center
+                            w-[100%]
+                            md:w-[80%]
+                            m-auto
+                            mt-2
+                        '>
                             Ajudamos inovadores a entender rapidamente como criaremos seus produtos digitais e fornecemos uma vantagem comercial competitiva. <br /> A ideia que funciona.
                         </p>
                     </div>
-                    <div className='w-[100%] font-[poppins] mt-10'>
+                    <div className='w-[100%] m-auto text-center mt-10'>
                         <h2 className='font-bold font-[poppins]'>
                             Decolagem
                         </h2>
@@ -122,11 +131,17 @@ function PDE() {
                         rounded-[12px]
                     '>
                         </div>
-                        <p>
+                        <p className='
+                            text-center
+                            w-[100%]
+                            md:w-[80%]
+                            m-auto
+                            mt-2
+                        '>
                             Construímos produtos digitais de alta qualidade que podem se dimensionados. Fazemos isso por meio de novas tecnologias, grandes talentos e verdadeiros métodos ágeis. <br /> O produto que funciona
                         </p>
                     </div>
-                    <div className='w-[100%] font-[poppins] mt-10 mb-10'>
+                    <div className='w-[100%] m-auto text-center mt-10 mb-10'>
                         <h2 className='font-bold font-[poppins]'>
                             Entrega
                         </h2>
@@ -138,7 +153,13 @@ function PDE() {
                         rounded-[12px]
                     '>
                         </div>
-                        <p>
+                        <p className='
+                            text-center
+                            w-[100%]
+                            md:w-[80%]
+                            m-auto
+                            mt-2
+                        '>
                             Fornecemos equipes de solução completa para empresas de tecnologia de alto crescimento usando novas linguagens de programação para mover-se mais rapidamente. <br /> A equipe que trabalha.
                         </p>
                     </div>
