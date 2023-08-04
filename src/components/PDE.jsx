@@ -13,8 +13,10 @@ function PDE() {
     return (
         <div className='
     m-auto
+    mt-[300px]
+    sm:mt-[600px]
     md:mt-[600px]
-    lg:mt-[0px]
+    lg:mt-0
     h-screen
     w-screen
     p-8
@@ -168,8 +170,11 @@ function PDE() {
             </div>
             <div className='
                 md:flex
+                md:ml-0
+                m-auto
+                ml-[10%]
                 '>
-                <div className='w-[90%] h-[300px] m-auto'>
+                <div className='w-[100%] h-[300px] m-auto'>
                     <img src={aspas} alt="" />
                     <img className='
                       bg-gray-600
@@ -189,7 +194,7 @@ function PDE() {
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem aperiam accusamus beatae, obcaecati minima, illo animi nam voluptatibus suscipit error vel reprehenderit debitis imi nam voluptatibus suscipit error vel reprehenderit debitisimi nam voluptatibus suscipit error vel reprehenderit debitis
                     </p>
                 </div>
-                <div className='w-[90%] h-[300px] m-auto'>
+                <div className='w-[100%] h-[300px] m-auto'>
                     <img src={aspas} alt="" />
                     <img className='
                       bg-gray-600
