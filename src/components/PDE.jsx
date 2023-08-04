@@ -86,9 +86,9 @@ function PDE() {
                             m-auto
                             flex
                             justify-center
-                            mt-[60px]
+                            mt-[0px]
                             md:mt-0
-                            lg:w-[513.388px]
+                            lg:w-[550.388px]
                             lg:h-[59.259px]
                             lg:ml-[45%]
                             lg:mt-[100px]
