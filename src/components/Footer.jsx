@@ -5,10 +5,25 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#202020] w-screen h-[295px] py-8 mt-[600px] md:mt-[250px] lg:mt-[350px]'>
-    <div className='container mx-auto flex justify-between items-center'>
+    <footer className='
+   bg-[#202020]
+     w-screen 
+     h-[295px] 
+     py-8 mt-[600px] 
+     md:mt-[250px] 
+     lg:mt-[350px]
+    '>
+    <div className='
+     container
+     mx-auto 
+     flex 
+     justify-between 
+     items-center
+    '>
       <div>
-        <img src={LogoHonors} alt="Logo Honors" className='mt-[30px]' />
+        <img src={LogoHonors} alt="Logo Honors" className='
+         mt-[30px]'
+        />
         <div className='ml-5 mt-2'>
           <div className="text-[#979797] font-Poppins text-base font-medium leading-normal">HONORS COMERCIO E TECNOLOGIA LTDA</div>
           <div className="text-[#979797] font-Poppins text-base font-medium leading-normal">CNPJ: 18.000.946/0001-13x</div>
