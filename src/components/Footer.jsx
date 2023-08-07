@@ -10,7 +10,7 @@ const Footer = () => {
      w-screen 
      h-[295px] 
      py-8 mt-[600px] 
-     md:mt-[250px] 
+     md:mt-[400px] 
      lg:mt-[350px]
     '>
     <div className='

@@ -17,7 +17,6 @@ function WhatWeDo() {
             bg-[#202020]
         '  
         >
-    
             <h1
                 className='
                 text-center 
@@ -95,7 +94,7 @@ function WhatWeDo() {
                 </div>
 
             </div>
-            <div className='m-auto'>
+            <div className='m-auto lg:mt-[200px]'>
                 <h3 className='text-white text-center text-[15px] mb-[15px] font-[poppins] lg:text-xl lg:mb-24 '>
                     Usando tecnologias modernas
                 </h3>
