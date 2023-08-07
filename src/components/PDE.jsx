@@ -13,18 +13,17 @@ function PDE() {
     return (
         <div className='
     m-auto
-    mt-[300px]
-    sm:mt-[600px]
-    md:mt-[600px]
-    lg:mt-0
-    h-screen
+    sm:mt-[200px]
+    md:mt-[200px]
+    lg:mt-[300px]
+    h-[1200px]
     w-screen
     p-8
     bg-white
     '>
             <div className='
                 lg:flex
-                
+                   
             '>
                 <div className='
                     lg:h-[110px]
