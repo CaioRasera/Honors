@@ -6,7 +6,7 @@ import Database from '../assets/Database.png'
 
 const HowWeHelpYou = () => {
   return (
-    <main className='mt-[100px] h-[1400px] xl:h-[1000px] mb-[100px] lg:mb-0'>
+    <main className='mt-[100px] h-[1400px] xl:h-[1000px] mb-[100px] lg:mb-[100px]'>
     <div>
         <h1 className='text-[#202020] text-center font-poppins text-[45px] font-semibold'> Como te ajudamos ? </h1>
     </div>
