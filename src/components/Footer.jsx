@@ -11,7 +11,7 @@ const Footer = () => {
      h-[295px] 
      py-8 mt-[600px] 
      md:mt-[400px] 
-     lg:mt-[350px]
+     lg:mt-0
     '>
     <div className='
      container

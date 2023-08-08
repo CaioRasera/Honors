@@ -15,15 +15,14 @@ function PDE() {
     m-auto
     sm:mt-[200px]
     md:mt-[200px]
-    lg:mt-[300px]
+    lg:mt-[0px]
     h-[1200px]
     w-screen
     p-8
     bg-white
     '>
             <div className='
-                lg:flex
-                   
+                lg:flex    
             '>
                 <div className='
                     lg:h-[110px]
