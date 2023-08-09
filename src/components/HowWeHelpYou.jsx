@@ -10,7 +10,15 @@ const HowWeHelpYou = () => {
     <div>
         <h1 className='text-[#202020] text-center font-poppins text-[45px] font-semibold'> Como te ajudamos ? </h1>
     </div>
-    <div className='flex justify-center items-center h-screen lg:m-auto md:m-auto sm:m-auto'>
+    <div className='
+      flex 
+      justify-center 
+      items-center 
+      h-screen 
+      lg:m-auto 
+      md:m-auto 
+      sm:m-auto
+    '>
       <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] relative lg:justify-center md:justify-center sm:justify-center'>
 
         <div classname="
