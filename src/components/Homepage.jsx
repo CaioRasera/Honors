@@ -17,7 +17,21 @@ const Homepage = () => {
         </div>
 
         <div>
-          <p className='sm:text-[35px] h-[100px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins text-[70px] font-extrabold text-black'>
+          <p className='
+          sm:text-[35px] 
+          h-[100px] 
+          absolute 
+          top-1/2 
+          left-1/2 
+          transform 
+         -translate-x-1/2 
+         -translate-y-1/2 
+          text-center 
+          font-poppins 
+          text-[70px] 
+          font-extrabold
+          text-black
+          '>
             Aplicações limpas e otimizadas
           </p>
           <p className='lg:mt-[20px] md:mt-[75px] sm:mt-[90px] font-poppins text-lg font-medium text-gray-800 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center'>
