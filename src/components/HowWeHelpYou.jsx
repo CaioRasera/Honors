@@ -43,7 +43,7 @@ const HowWeHelpYou = () => {
             <img src={Rocket} alt="Rocket" className='w-[50px] h-[50px]'/>
           </div>
 
-          <div className='ml-10 lg:flex lg:justify-center lg:relative md:flex md:justify-center md:relative sm:flex sm:justify-center sm:relative'>        
+          <div className=*ml-10 lg:flex lg:justify-center lg:relative md:flex md:justify-center md:relative sm:flex sm:justify-center sm:relative'>        
             <h1 className='font-poppins text-[21px] font-normal font-black ml-4 w-[330px] h-[62px] mt-[18px]'>LANÇAMENTOS DIGITAIS COM QUALIDADE</h1>
           </div>
 
