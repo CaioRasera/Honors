@@ -19,12 +19,13 @@ const HowWeHelpYou = () => {
       md:m-auto 
       sm:m-auto
     '>
-      <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] relative lg:justify-center md:justify-center sm:justify-center'>
+      <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] relative lg:justify-center md:justify-center sm:justify-center mt-10'>
 
         <div classname="
           lg:flex-col 
           md:flex-col 
           sm:flex-col
+          
         ">
           <div className="
             absolute 
@@ -43,8 +44,8 @@ const HowWeHelpYou = () => {
             <img src={Rocket} alt="Rocket" className='w-[50px] h-[50px]'/>
           </div>
 
-          <div className=*ml-10 lg:flex lg:justify-center lg:relative md:flex md:justify-center md:relative sm:flex sm:justify-center sm:relative'>        
-            <h1 className='font-poppins text-[21px] font-normal font-black ml-4 w-[330px] h-[62px] mt-[18px]'>LANÇAMENTOS DIGITAIS COM QUALIDADE</h1>
+          <div className='ml-10 lg:flex lg:justify-center lg:relative md:flex md:justify-center md:relative sm:flex sm:justify-center sm:relative'>        
+            <h1 className='font-poppins text-[21px] font-normal text-center font-black ml-4 w-[330px] h-[62px] mt-[18px]'>LANÇAMENTOS DIGITAIS COM QUALIDADE</h1>
           </div>
 
             <p className='mt-[15px] w-[520px] h-[165px] font-semibold lg:text-center lg:mt-2 lg:mb-[55px] md:text-center md:mt-2 md:mb-[55px] sm:text-center sm:mt-2 sm:mb-[55px]'>
