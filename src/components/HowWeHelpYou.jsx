@@ -11,10 +11,8 @@ const HowWeHelpYou = () => {
         <h1 className='text-[#202020] text-center font-poppins text-[45px] font-semibold'> Como te ajudamos ? </h1>
     </div>
     <div className='
-      flex 
-      justify-center 
-      items-center 
       h-screen 
+      m-auto
       lg:m-auto 
       md:m-auto 
       sm:m-auto
@@ -25,11 +23,11 @@ const HowWeHelpYou = () => {
           lg:flex-col 
           md:flex-col 
           sm:flex-col
-          
         ">
           <div className="
             absolute 
             flex 
+            justify-center
             items-center 
             lg:flex 
             lg:justify-center 
@@ -48,7 +46,7 @@ const HowWeHelpYou = () => {
             <h1 className='font-poppins text-[21px] font-normal text-center font-black ml-4 w-[330px] h-[62px] mt-[18px]'>LANÇAMENTOS DIGITAIS COM QUALIDADE</h1>
           </div>
 
-            <p className='mt-[15px] w-[520px] h-[165px] font-semibold lg:text-center lg:mt-2 lg:mb-[55px] md:text-center md:mt-2 md:mb-[55px] sm:text-center sm:mt-2 sm:mb-[55px]'>
+            <p className='mt-[15px] w-[520px] h-[165px] font-semibold lg:text-center lg:mt-2 lg:mb-[55px] md:text-center md:mt-2 md:mb-[55px] text-center sm:mt-2 sm:mb-[55px]'>
               Crie uma arquitetura que funcione. Uma arquitetura escalável é essencial para permitir que você cultive uma base de usuários crescente. Quanto 
               maior o número de transações, mais robusta deve ser a arquitetura. Trabalhamos com nossos clientes globais dividindo seus monólitos (e equipes) 
               em microsserviços, aplicando novos paradigmas, incluindo arquiteturas orientadas a eventos (EDA) e ferramentas como Elixir e Phoenix.

@@ -1,5 +1,5 @@
 import React from 'react'
-import HonorsLogo from '../assets/honorlogo.png'
+import HonorsLogo from '../assets/HonorsLogo.svg'
 import PhoneIcon from "../assets/Phoneicon.png"
 
 const Navbar = () => {
