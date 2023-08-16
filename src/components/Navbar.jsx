@@ -1,8 +1,13 @@
+
 import React from 'react'
 import HonorsLogo from '../assets/honorslogo.jpg'
 import PhoneIcon from "../assets/Phoneicon.png"
 
+
 const Navbar = () => {
+
+  
+
   return (
     <nav className='
       w-full 
@@ -62,11 +67,11 @@ const Navbar = () => {
               h-[50px] 
               flex-shrink 
             '/>
+
           </a>
         </div>
       </div>
     </nav>
   )
 }
-
 export default Navbar

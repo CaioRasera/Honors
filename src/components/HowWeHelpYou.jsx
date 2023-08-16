@@ -17,7 +17,7 @@ const HowWeHelpYou = () => {
       md:m-auto 
       sm:m-auto
     '>
-      <div className='flex flex-wrap justify-between mx-auto w-[1200px] h-[873px] relative lg:justify-center md:justify-center sm:justify-center mt-10'>
+      <div className='flex flex-wrap flex-grow-0 justify-center mx-auto w-[1200px] h-[873px] relative lg:justify-between md:justify-center sm:justify-center mt-10'>
 
         <div classname="
           lg:flex-col 
